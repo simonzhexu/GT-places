@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">GT-places</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Places</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_current_location">Current Location</string>
+    <string name="main_activity_getting_location_toast">Getting current location...</string>
+    <string name="main_activity_no_places_found_error">No places were found around the area you searched for.</string>
+    <string name="main_activity_loading_places">Finding places...</string>
+
+</resources>

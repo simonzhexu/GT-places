@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   
+
+    <ListView
+        android:id="@+id/auto_completion_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:visibility="gone" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+		>
+		<TextView
+		    android:id="@+id/addressTitle"
+		    android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" 
+            android:padding="5dip"
+		    ></TextView>
+        <com.google.android.maps.MapView
+            android:id="@+id/mapview"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="6"
+            android:apiKey="0fczyeZaU_bhxUEfGLpcUJM-RipzlB3IDGF_jdw"
+            android:clickable="true" />
+
+        <ListView
+            android:background="@android:color/white"
+            android:id="@+id/place_result_list"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:visibility="gone"
+            android:layout_weight="3" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>
